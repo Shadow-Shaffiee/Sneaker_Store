@@ -4,7 +4,7 @@ const menuItems = document.querySelectorAll(".menuItem");
 const products = [
   {
     id: 1,
-    title: "Air Force",
+    title: "Cap",
     price: 119,
     colors: [
       {
@@ -12,44 +12,44 @@ const products = [
         img: "./img/Product/air.png",
       },
       {
-        code: "darkblue",
+        code: "white",
         img: "./img/Product/air2.png",
       },
     ],
   },
   {
     id: 2,
-    title: "Air Jordan",
+    title: "Sweater",
     price: 149,
     colors: [
       {
-        code: "lightgray",
+        code: "black",
         img: "./img/Product/jordan.png",
       },
       {
-        code: "green",
+        code: "white",
         img: "./img/Product/jordan2.png",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazer",
+    title: "T-shirt",
     price: 109,
     colors: [
       {
-        code: "lightgray",
+        code: "black",
         img: "./img/Product/blazer.png",
       },
       {
-        code: "green",
+        code: "white",
         img: "./img/Product/blazer2.png",
       },
     ],
   },
   {
     id: 4,
-    title: "Crater",
+    title: "Pants",
     price: 129,
     colors: [
       {
@@ -57,38 +57,23 @@ const products = [
         img: "./img/Product/crater.png",
       },
       {
-        code: "lightgray",
+        code: "white",
         img: "./img/Product/crater2.png",
       },
     ],
   },
   {
     id: 5,
-    title: "Hippie",
+    title: "Shoes",
     price: 99,
     colors: [
       {
-        code: "gray",
+        code: "black",
         img: "./img/Product/hippie.png",
       },
       {
-        code: "black",
+        code: "blue",
         img: "./img/Product/hippie2.png",
-      },
-    ],
-  },
-   {
-    id: 6,
-    title: "Sword",
-    price: 1279,
-    colors: [
-      {
-        code: "Great Sword",
-        img: "./img/Product/Sword.png",
-      },
-      {
-        code: "Katana",
-        img: "./img/Product/Sword2.png",
       },
     ],
   },
